@@ -300,7 +300,7 @@ The incantation is:
 ```
 {
    echo '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-06-18","capabilities":{},"clientInfo":{"name":"bash","version":"0.0.0"}}}'
-   echo '{"jsonrpc":"2.0","method":"notifications/initialized"}
+   echo '{"jsonrpc":"2.0","method":"notifications/initialized"}'
    echo '{"jsonrpc":"2.0","id":2,"method":"tools/call","params":{"name":"get_current_time","arguments":{"timezone":"UTC"}}}'
    sleep 5;
 } | mcp-server-time | jq
