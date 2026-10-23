@@ -11,6 +11,11 @@ Your autonomous llm agent will solve last week's lab by itself and submit issues
 > $ pip3 uninstall dic
 > $ pip3 install git+https://github.com/mikeizbicki/geni
 > ```
+> Then get the bash shortcuts with the command
+> ```
+> $ eval "$(dic --init)" -f
+> ```
+> and add that to the bashrc to make these shortcuts permanent.
 
 ## Part 1: Structured Output
 
