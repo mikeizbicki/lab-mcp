@@ -175,9 +175,9 @@ The output should be the prompt only.
 EOF
 ```
 
-Now lets ask OpenAI's image model `gpt-image-2` to make the edits
+Now lets ask nano-banana-2 to make those changes
 ```
-$ dic -m fal+gpt-image-2 -a meme-0.png < prompt-edit --path=meme-edit.png
+$ dic -m fal+nano-banana-2 -a meme-0.png < prompt-edit --path=meme-edit.png
 $ icat meme-edit-0.png
 ```
 
