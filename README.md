@@ -4,6 +4,14 @@ In this lab we will see how to make full-fledged AI agents using the *model cont
 MCP uses JSON under the hood, and so we will first explore how to get models to output JSON.
 Your autonomous llm agent will solve last week's lab by itself and submit issues to github.
 
+> **NOTE:**
+> You will need the latest version of `dic` for these commands to run.
+> Uninstall any previous versions and reinstall with the commands:
+> ```
+> $ pip3 uninstall dic
+> $ pip3 install git+https://github.com/mikeizbicki/geni
+> ```
+
 ## Part 1: Structured Output
 
 First we will see how to force LLMs to output JSON.
