@@ -172,6 +172,7 @@ The input image is a meme about something from the hackernews frontpage.
 I want to make it funnier.
 Write a 1-15 sentence prompt for an image editing LLM instructing it what edits to make to make the image funnier.
 The output should be the prompt only.
+EOF
 ```
 
 Now lets ask OpenAI's image model `gpt-image-2` to make the edits
